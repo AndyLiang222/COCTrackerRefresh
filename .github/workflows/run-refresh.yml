@@ -23,7 +23,7 @@ jobs:
 
       - name: Run update script
         env:
-          MONGO_URI: ${{ secrets.MONGO_URI }}
+          MONGODB_URI: ${{ secrets.MONGDB_URI }}
           COC_EMAIL:  ${{ secrets.COC_EMAIL }}
           COC_PASSWORD: ${{ secrets.COC_PASSWORD }}
           COC_KEY_NAME: ${{ secrets.COC_KEY_NAME }}
