@@ -1,6 +1,3 @@
-# Node.js Project
-
-This is a Node.js project that serves as a template for building applications using Node.js.
 
 ## Project Structure
 
