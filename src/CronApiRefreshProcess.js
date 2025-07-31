@@ -79,7 +79,10 @@ async function init() {
 
     console.log('✅ Logged in to Clash of Clans API');
 
-    runJob()
+    cron.schedule('*/2 * * * *', () => {
+      console.log(`[${new Date().toISOString()}] Running job...`);
+      runJob();
+    });
 
   } catch (err) {
     console.error('❌ Login error:', err.message);
