@@ -2,8 +2,7 @@ name: Update Real Time Data
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Every 2 minutes
-  workflow_dispatch:       # (Optional) allows manual run from GitHub UI
+    - cron: "*/5 * * * *"  # Every 2 minutes     (Optional) allows manual run from GitHub UI
 
 jobs:
   run-script:
